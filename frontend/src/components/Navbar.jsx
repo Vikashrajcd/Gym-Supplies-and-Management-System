@@ -12,7 +12,6 @@ function Navbar() {
         <Link to="/">Phoenix Fitness</Link>
       </div>
 
-      {/* Navbar Links */}
       <div className={`nav-links ${menuOpen ? "open" : ""}`}>
         <Link to="/" onClick={() => setMenuOpen(false)}>Home</Link>
         <Link to="/about" onClick={() => setMenuOpen(false)}>About</Link>
@@ -21,13 +20,13 @@ function Navbar() {
         <Link to="/contact" onClick={() => setMenuOpen(false)}>Contact</Link>
       </div>
 
-      {/* Authentication Buttons */}
+      
       <div className="auth-buttons">
         <Link to="/signin" className="btn">Sign In</Link>
         <Link to="/signup" className="btn btn-primary">Sign Up</Link>
       </div>
 
-      {/* Hamburger Menu Icon */}
+      
       <div className="menu-icon" onClick={() => setMenuOpen(!menuOpen)}>
         ☰
       </div>

@@ -7,8 +7,9 @@ import Membership from "./pages/Membership";
 import Shop from "./pages/Shop";
 import SignUp from "./pages/SignUp";
 import SignIn from "./pages/SignIn";
-import Services from "./pages/Services";  // ✅ Import Services Page
-import ServiceDetail from "./pages/ServiceDetail";  // ✅ Import ServiceDetail Page
+import ForgotPassword from "./pages/ForgotPassword";
+import Services from "./pages/Services";  
+import ServiceDetail from "./pages/ServiceDetail";  
 
 function App() {
   return (
@@ -21,8 +22,9 @@ function App() {
         <Route path="/shop" element={<Shop />} />
         <Route path="/signin" element={<SignIn />} />
         <Route path="/signup" element={<SignUp />} />
-        <Route path="/services" element={<Services />} />  {/* ✅ Services Page */}
-        <Route path="/services/:id" element={<ServiceDetail />} />  {/* ✅ Service Detail Page */}
+        <Route path="/forgot-password" element={<ForgotPassword />} />
+        <Route path="/services" element={<Services />} />  
+        <Route path="/services/:id" element={<ServiceDetail />} />  
       </Routes>
     </>
   );

@@ -1,10 +1,9 @@
-/* Home Page Styling */
 .home-container {
     width: 100%;
     text-align: center;
 }
 
-/* Hero Section */
+
 .hero-section {
     position: relative;
     width: 100%;
@@ -57,8 +56,6 @@
 .cta-button:hover {
     background: white;
 }
-
-/* Gym Attire Section */
 .attire-section {
     padding: 50px 20px;
     background: #f4f4f4;
@@ -95,7 +92,6 @@
     font-weight: bold;
 }
 
-/* Free Trial Section */
 .free-trial {
     padding: 50px 20px;
     background: #333;
@@ -111,7 +107,7 @@
     font-size: 1.2rem;
     margin-bottom: 20px;
 }
-/* Services Section */
+
 .services-section {
     text-align: center;
     padding: 40px 20px;
@@ -119,7 +115,7 @@
   
   .services-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-template-columns: repeat(2, 1fr); 
     gap: 20px;
     justify-content: center;
     max-width: 800px;
@@ -161,7 +157,7 @@
     background-color: #0056b3;
   }
   
-  /* Service Detail Page */
+  
   .service-detail {
     text-align: center;
     padding: 40px;

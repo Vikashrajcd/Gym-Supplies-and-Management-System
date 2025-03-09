@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import servicesData from "../data/servicesData";
 
 function ServiceDetail() {
-  const { id } = useParams(); // Get the dynamic ID from URL
+  const { id } = useParams(); 
   const service = servicesData.find((s) => s.id === id);
 
   if (!service) {

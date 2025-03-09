@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/Home.css";
-import servicesData from "../data/servicesData"; // Import service data
+import servicesData from "../data/servicesData"; 
 
 function Home() {
   return (
     <div className="home-container">
-      {/* Hero Section */}
+      
       <section className="hero-section">
         <img src="/assets/gymback.jpg" alt="Gym Background" className="hero-bg" />
         <div className="hero-content">
@@ -16,7 +16,7 @@ function Home() {
         </div>
       </section>
 
-      {/* Our Services Section */}
+      
       <section className="services-section">
         <h2>Our Services</h2>
         <div className="services-grid">
@@ -30,7 +30,7 @@ function Home() {
         </div>
       </section>
 
-      {/* Free Trial Section */}
+      
       <section className="free-trial">
         <h2>Try Us for Free!</h2>
         <p>Get a <strong>7-day free trial</strong> and explore our facilities, trainers, and workouts.</p>

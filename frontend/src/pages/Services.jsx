@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import servicesData from "../data/servicesData";
-import "../styles/Services.css"; // Import CSS for styling
+import "../styles/Services.css"; 
 
 function Services() {
   return (

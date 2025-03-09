@@ -1,8 +1,8 @@
 import React from "react";
-import "../styles/Shop.css"; // Import CSS for styling
+import "../styles/Shop.css"; 
 
 function Shop() {
-  // Sample products
+  
   const products = [
     {
       id: 1,
